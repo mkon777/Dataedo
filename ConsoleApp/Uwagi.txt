@@ -1,0 +1,7 @@
+﻿Jedna klasa nie powinna być od obsługi wszystkiego, a tym bardziej jedna metoda. Warto dzielić zadania pomiędzy klasy i funkcje.
+Warto pisać więcej komentarzy, ułatwia to późniejszą pracę lub pracę kolegów.
+Kod powinien być możliwie najmniej skomplikowany, m.in. nie trzeba umieszczać warunku w warunku, jeśli można je połączyć oraz można podzielić większe funkcje na mniejsze np. jako etapy lub powtarzalne elementy, by były odpowiedzialne za jak najmniejsze "obowiązki".
+Przy porównywaniu stringów warto albo wszystkie zapisywać tak samo (np. wielkimi literami) albo używać metod porówniania niewrażliwych na wielkość (w wymagających tego przypadkach)
+Warto pomyśleć o możliwych problemach, np. obsługa pustej linii, wyjścia poza tablice. Przynajmniej sprawdzić chociaż te występujące w testach i je obsłużyć.
+Przy podziale klas, warto przemyśleć, co może mieć dostęp do czego, szczególnie, jeśli projekt ma się powiększać.
+Czy nie warto, żeby ścieżka do wczytywanego pliku była podawana jako argument? (kwestia specyfikacji, niekoniecznie problem)
